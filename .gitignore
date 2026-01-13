@@ -52,11 +52,16 @@ models/
 # ============================
 # Reports & figures
 # ============================
-reports/figures/
-*.png
-*.jpg
-*.svg
-*.pdf
+# Ignore everything in reports
+
+reports/*
+
+# Allow figures for README
+!reports/figures/
+!reports/figures/*.png
+!reports/figures/*.jpg
+!reports/figures/*.svg
+!reports/figures/*.jpeg
 
 # ============================
 # Logs / temp

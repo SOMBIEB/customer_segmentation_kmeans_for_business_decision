@@ -8,8 +8,15 @@ Plutôt que de regarder les clients individuellement, l’idée est de les regro
 
 ## Visualisation rapide de quelques resultats 
 
-![Scatter plot showing customer segmentation results using PCA. The plot has five distinct clusters represented by different colors: red, orange, blue, green, and purple. Each cluster corresponds to a customer segment derived from their purchasing behavior. The x-axis is labeled PCA1, and the y-axis is labeled PCA2. The title reads PCA of Customer Segments, and a legend on the right indicates the cluster numbers from 0 to 4 with matching colors.]
+<p align="center">
+  <img src="reports/figures/Visualisation des clusters dans le plan PCA.png" width="180"/>
+  <img src="reports/figures/Correlation Heatmap.png" width="180"/>
+  <img src="reports/figures/elbow_method.png" width="180"/>
+  <img src="reports/figures/silhouette_score.png" width="180"/>
+</p>
+
 ---
+
 ## Dataset
 Le jeu de données regroupe des informations issues de l’historique client et de leurs habitudes d’achat, notamment :
 
