@@ -1,0 +1,89 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+.envrc/
+
+# ============================
+# Jupyter
+# ============================
+.ipynb_checkpoints/
+*.ipynb~
+
+# ============================
+# OS / Editors
+# ============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ============================
+# Data (raw / processed)
+# ============================
+data/raw/
+data/interim/
+data/processed/
+
+# Allow README or .gitkeep
+!data/**/.gitkeep
+!data/**/README.md
+
+# ============================
+# Models & artifacts
+# ============================
+models/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# ============================
+# Reports & figures
+# ============================
+reports/figures/
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# ============================
+# Logs / temp
+# ============================
+logs/
+*.log
+tmp/
+.cache/
+# ============================
+# Python cache & tooling
+# ============================
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+coverage/
+htmlcov/
+
+# ============================
+# Data exports
+# ============================
+*.csv
+*.parquet
+*.feather
+*.xlsx
+
+# Exception : rapports légers
+!reports/*.csv
+image*.png
+test_temporaire*.py
+!reports/*.xlsx

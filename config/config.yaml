@@ -1,0 +1,48 @@
+seed: 42
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  models: models
+  reports: reports
+  figures: reports/figures
+
+dataset:
+  filename: customer_segmentation.csv
+  id_col: ID
+  date_col: Dt_Customer
+
+features:
+  # Colonnes de dépense présentes dans ton dataset
+  spending_cols:
+    - MntWines
+    - MntFruits
+    - MntMeatProducts
+    - MntFishProducts
+    - MntSweetProducts
+    - MntGoldProds
+
+  # Colonnes d'acceptation de campagne présentes dans ton dataset
+  campaign_cols:
+    - AcceptedCmp1
+    - AcceptedCmp2
+    - AcceptedCmp3
+    - AcceptedCmp4
+    - AcceptedCmp5
+    - Response
+
+  # Colonnes à exclure des features (on les garde pour référence, pas pour scaler direct)
+  drop_cols:
+    - ID
+    - Dt_Customer
+
+model:
+  name: kmeans
+  # Valeur par défaut; on pourra la remplacer après analyse coude/silhouette
+  n_clusters: 4
+  random_state: 42
+
+pca:
+  enabled: true
+  n_components: 2
