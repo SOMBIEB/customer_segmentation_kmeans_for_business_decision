@@ -1,6 +1,6 @@
 # Customer Segmentation using Machine Learning
 
-## Objective
+## Objectif
 L’objectif de ce projet est de mieux comprendre une base clients à partir de leurs comportements d’achat, afin d’identifier des profils clairs et exploitables par les équipes métiers.
 Plutôt que de regarder les clients individuellement, l’idée est de les regrouper en segments cohérents pour faciliter la prise de décision marketing et commerciale.
 
@@ -30,7 +30,7 @@ Ces données permettent d’avoir une vision globale du comportement client.
 
 ---
 
-## Approach
+## Approche
 Le projet a été mené de la même manière qu’en contexte professionnel, étape par étape.
 
 Tout d’abord, les données ont été nettoyées et préparées afin d’éliminer les incohérences et de créer des variables plus parlantes d’un point de vue métier, comme les dépenses totales ou l’ancienneté client.
@@ -45,7 +45,7 @@ Enfin, chaque segment a été analysé et interprété afin d’en extraire des 
 
 ---
 
-## Results
+## Résultats
 L’analyse a permis d’identifier **5 segments clients distincts**.
 
 Chaque segment présente des comportements clairement différenciés en termes de revenus, de dépenses, de fréquence d’achat et de canaux utilisés.
@@ -78,7 +78,5 @@ Cette segmentation apporte une valeur concrète pour l’entreprise :
 - Seaborn / Matplotlib  
 
 ---
-
-## Next Steps
 
 
